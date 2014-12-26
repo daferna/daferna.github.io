@@ -1,0 +1,13 @@
+# Site settings
+title: Daniel Fernandes
+email: daniel at this domain
+description: > # this means to ignore newlines until "baseurl:"
+    The homepage of Daniel Fernandes
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://danielfernand.es" # the base hostname & protocol for your site
+twitter_username: daferna2
+github_username:  daferna
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
