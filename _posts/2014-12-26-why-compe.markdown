@@ -1,0 +1,159 @@
+---
+layout: post
+title:  "Computer Engineering: an apology"
+date:   2014-12-26 21:03:11-08:00
+categories: compe engr rants
+---
+
+Computer Engineering and Computer Science (herein referred to as
+ CE and CS) are two very closely related majors.
+To an outsider, the two are nearly
+indistinguishable and easily conflated, but they are indeed very
+different disciplines. Hundreds of freshmen engineering students
+interested in one of these majors will naturally question
+themselves and others as to whether they have 'picked the right
+path'. As (a highly opinionated) somebody who chose the former
+over the latter, and has asked, answered, argued, offended,
+harangued, interjected and ruminated over this topic (for perhaps too long!), I believe it is worth
+organizing and writing down my thoughts once and for all, as a reference for others in the future at UIUC and at other
+universities. In a nutshell: computer engineers study the
+physics of computation and computer scientists study the
+mathematics of computation.
+
+There are many ways to start tackling the question.
+One straightforward first attempt is to try and define the terms
+and flesh out the differences.
+I do not mean literal dictionary definitions of the words.
+Part of the reason for the confusion is because the terms
+"engineering" and "science" are already synonymous in most minds.
+So let us instead look comparatively: first at the differences and then at the similarities.
+(If there are any left!)
+
+Historically, Computer Engineering and Computer Science are identical in age.
+It is my opinion they are identical because neither one could reasonably exist without the other. Despite others who
+may take poetic license and claim that civilizations with
+abaci are somehow evidence of computing's 'ancient history',
+I assert the first credible steps were first taken by [Charles
+Babbage](http://en.wikipedia.org/wiki/Charles_Babbage) with the invention of his [Analytical Engine](http://en.wikipedia.org/wiki/Analytical_Engine) and
+[Ada Lovelace](http://en.wikipedia.org/wiki/Ada_Lovelace) who corresponded with Babbage and wrote the first algorithm for the machine. Right from the get go, we see the division of labor.
+Babbage, the engineer, creating the physical substrate for
+computation. Lovelace, the programmer, writing the code. It's a
+bit too early to call Babbage the father of CE and Lovelace the
+mother of CS. But let me pause here to interject my first
+opinion: Babbage would have had a much easier time picking up
+programming than Lovelace would have had picking up engineering.
+Stated more generally: *It is usually easier for a CompE to pickup a CS job than for a CS major to pickup a CE job*.
+This not meant to be
+insulting towards Lovelace or towards computer scientists (or towards women for that matter). It is an uncontroversial fact
+in many other fields that the engineers who build machines
+*generally* will make good operators of those machines.
+An automotive engineer will most likely be able to drive a car
+with more finess than the average driver and perhaps with ample
+track time could even drive at a competitive level, but even the most skilled NASCAR or F1 driver cannot reasonably design an
+engine, drivetrain, or gearbox without going back to school for specialized training.
+I cannot overstate that this does *not* mean every engineer at
+Ford Motor Co. could beat Tony Stewart in their lifetime. It is
+a *trend*, and exceptions abound.
+
+(I actually generalize this principle even further to say that mathematics follows physics, but that is a holy war for another time.)
+
+*"So who cares? Why does this matter? Most computer scientists
+have no interest in hardware jobs."*
+Admittely, this is really more of a useful point for
+the students leaning towards CE over CS.
+I employ this point to impose an ordering on how the wandering
+student should focus his or her education.
+In plain english: **if you want to learn hardware do it now or
+forever hold your peace**. It is *much* harder to try and learn
+about Maxwell's Equations, transistors, lithography, VLSI, and
+Architecture among many other things once you leave college.
+Many computer engineers end up doing
+purely software jobs for their entire professional career.
+Indeed, "software is eating the world," as Marc
+Andreessen observes.
+
+Faced with these odds, is it still worth persuing a CE degree? I would say yes:
+
+ 1. Knowing how hardware interacts with software will allow you to optimize code for the machine, when algorithmic impovments start to taper off
+ 2. <a name="ececore"></a>The core elements of Electrical and Computer Engineering: Signals, Systems, Control Theory and Information Theory are applicable in fields far and wide, from finance to biology.
+ 3. New computer architectures, paridigms, and models are easier to grasp when the underlying hardware is not a mystery. For example, GPU computing is an easier leap for computer engineers.
+ 4. A lot of software is written to simulate physics and to solve inverse problems. Such software is easier to understand and optimize when one has a background in electromagnitism, thermodynamics, quantum mechanics, etc.
+ 5. Computers are not always perfect, they can have bugs by design or due to noise. Many computer engineers are devoted to studying fault tolerant computing.
+ 6. Low power computing is increasingly becoming important with the advent of mobile devices. Understanding the impact of algorithms on power consumption is a classical computer engineering skill.
+
+
+ Of course, there are still the 'pure' CE careers, like computer architecture design and verification, but I hope the aformentioned points are hints as to why a purely software career path may still benefit from a CE curriculum.
+
+That being said, CE is still not for everybody. There are many
+who really should choose the CS route. Before listing off the
+benefits of a computer science curriculum, one point should be
+made abudantly clear: **computer science is not equivalent to
+software engineering**.
+A classic 'old school' CS curriculum is *not* about learning how to program
+or how to write good software. Realistically, most CS sequences
+will have one or two classes on software style and engineering.
+But these classes are really to reassure potential employers
+that the students have actually touched a keyboard at some
+point.
+
+As I said in the beginning, CS is about learning the *math*
+behind the programming; it is about algorithmic analysis, and
+the linguistics of describing a programming language that
+a machine can eventually understand after compiliation.
+It is about using deductive logic to prove properties
+of algorithms and the languages that describe them, not
+about worrying how those algorithms actually run on the
+machine. Though, of course, most CS curricula will have
+a few courses on architecture. If architecture is 'pure'
+computer engineering, then compilers, cryptography, and algorithms
+are 'pure' computer science.
+
+Now, that being said, most actual CS jobs are not really pure,
+theoretical, computer science. Most are more accurately
+described as software engineering jobs. Which is fairly
+self-explanatory: the art creating software. I would say most big
+software companies like Facebook, Google, and Salesforce are
+looking to fill software engineering positions despite
+prerequisites that ask for a CS degree. A step below
+a software engineering job in prerequisite knowledge would be an Information
+Technology job, which usually requires on the job training
+as it is more of a craft than academic exercise. IT jobs
+historically have not required programming, but many
+are starting to require some coding expereince as managing
+increasingly complex business IT starts to look like a software
+job of its own. I would say the main similarity between CS and CE is this: both can do software engineering and IT jobs.
+
+So who would definitively benefit from a CS degree?
+
+ 1. Students who think Lisp is a good idea.
+ 2. Students that enjoy deductive logic and prefer math over physics
+ 3. Students looking to graduate in 4 years with very good job prospects
+ 4. Students that are interested in software engineering solutions rather than the computer itself
+
+The two men that really embody the differences between CE and CS are [John von Neumann](http://en.wikipedia.org/wiki/John_von_Neumann) and [Alan Turing](http://en.wikipedia.org/wiki/Alan_Turing).
+I will spare repeating their full biographies here. But I believe von Neumann, a physicist, is truly the father of computer engineering and Turing, a mathematician, the father of computer science.
+
+I think the content thus far establishes the philosophical
+differences between the two fields. There are, of course,
+pratical and provincial differences depending on what
+university you will be enrolled in as a student:
+
+ 1. Your university may not offer both degrees (many smaller colleges can only offer CS)
+ 2. Your university may offer a degree in ECE, not in EE and CE separately (Carnegie Mellon University)
+ 3. Your CS department may have Computer Engineering as a specialization (Stanford)
+ 4. Your university may organize itself into a EECS department, where CE is somewhere in the middle (UC Berkeley)
+ 5. Your university may classify CE as a specialization in an EE degree
+ 6. Your university may be offering a Software Engineering degree but mislabeling it as CS (many community colleges are unfortunately doing this, hint: if none of the classes require proofs, it's probably not worthy of being called CS)
+
+
+Perhaps this post is really the result of historical accidents. The way departments did or did not divide CS and CE into two
+separate tents, or even if they had created tents to begin with.
+My advice is to take classes in the fields where you think the
+world is headed, and where you want to be. As a computer
+engineer, I am starting to shift my sights towards more
+biological applications, but I still feel I am in the right
+department especially for [reason \#2](#ececore) that I gave
+above. Signals, Systems, Control Theory and Information Theory
+are really the key faculties of a good ECE curriculum that I
+(hope) will help me to solve problems that are intresting, fun,
+and existensially satisfying.
