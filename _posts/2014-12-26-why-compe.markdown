@@ -2,7 +2,7 @@
 layout: post
 title:  "Computer Engineering: an apology"
 date:   2014-12-26 21:03:11-08:00
-categories: compe engr rants
+categories:
 ---
 
 Computer Engineering and Computer Science (herein referred to as
