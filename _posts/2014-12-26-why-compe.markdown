@@ -61,8 +61,6 @@ a *trend*, and exceptions abound.
 have no interest in hardware jobs."*
 Admittely, this is really more of a useful point for
 the students leaning towards CE over CS.
-I employ this point to impose an ordering on how the wandering
-student should focus his or her education.
 In plain english: **if you want to learn hardware do it now or
 forever hold your peace**. It is *much* harder to try and learn
 about Maxwell's Equations, transistors, lithography, VLSI, and
