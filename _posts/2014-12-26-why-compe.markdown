@@ -152,6 +152,6 @@ engineer, I am starting to shift my sights towards more
 biological applications, but I still feel I am in the right
 department especially for [reason \#2](#ececore) that I gave
 above. Signals, Systems, Control Theory and Information Theory
-are really the key faculties of a good ECE curriculum that I
-(hope) will help me to solve problems that are intresting, fun,
+are really the key faculties of a good ECE curriculum that (I
+hope) will help me to solve problems that are intresting, fun,
 and existensially satisfying.
