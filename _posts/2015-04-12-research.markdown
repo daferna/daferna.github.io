@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "My Research Statement"
+date: 2015-04-12 14:10:23-0500
+categories:
+---
+
+Many people come into college scatterbrained and start to focus down on one topic.
+I think as I have progressed through college I have become more scatterbrained.
+
+All throughout highschool, I was mainly focused on computers and programming. I wasn't exactly sure what Computer Engineering entailed, but I knew that I wanted to learn something about hardware. I was also interested in neuroscience, namely to discover what link, if any, there is between brains and computers.
+
+I think it's safe to say that once you study neuroscience or computers for any length of time, it becomes blatantly obvious that the fields have little in common. Modern Von-Neumann architectures are rigid, while neurons are a bath of neurotrasmitters and chemicals with fluid membranes that can rewire, perhaps not instantaneously, but slowly over time. As John Searle has pointed out on many occasions: "We learn as much about the brain by saying it's a computer as we do by saying it's a telephone switchboard, a telegraph system, a water pump, or a steam engine." The computer is the most popular, advanced, commercially available invention of our time. A few decades ago, philosophers were comparing the brain to the steam engine.
+
+Now, that doesn't invalidate the idea of neuromorphic chips. The idea is that perhaps new computer architectures can steal some ideas from neuroscience, like trending towards more parallelism and asynchrony. This is already being done by IBM's TrueNorth chip, but as [Todd Hylton points out](http://rebootingcomputing.ieee.org/conferences-events/keynote-talks-videos-and-presentations-from-rcs2.html), this is very different from building a human brain.
+
+The main problem I see with neuromorphic chips is that they simply do not dynamically rewire with the same fluidity as a biological network. They may have routing networks similar to what an FPGA might have, but as we have known for a while now, routing on an FPGA is a [NP-Complete problem](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.96.4748&rep=rep1&type=pdf). Perhaps with some sort of fluid architecture with the system floating in oil or something to that effect, a more brain-like system could be realized. I cannot imagine how this would actually work, but I really do believe the substrate matches the computation. A Von-Neumann computer cannot simulate chemistry faster than the speed of chemistry in the physical world.
+
+My second idea was to focus on imaging. If perhaps we could not actually create a computer chip to emulate the human brain, at least we could image the full human brain in enough detail to take a highly detailed "snapshot", such that it could be recreated with some highly advanced future technology. I think the jury is still out on whether this will actually be possible. It is clear to me now, at least, that just measuring the connectome (the connections between neurons and their synapses) is not sufficient to understand how the brain is functioning. We need to have the chemical state, the types of neurons that are being imaged, and where they connect outside of the cranium, into the muscles,spine, and eyes. This is an idea I've co-oped again from Todd Hylton (who got it from Gerald Edleman) and [Daniel Wolpert](https://www.ted.com/talks/daniel_wolpert_the_real_reason_for_brains). As Edelman stated: "Brains are embodied and bodies are embedded in an environment." We cannot separate the brain as an abstract symbolic manipulation device. Brains exist in what Hylton calls a "dynamic equilibrium" with the environment it is surrounded. Additionally, to quantify the chemical state usually requires some type of labeling mechanism. It's hard to envision how a full molecular level image of the brain could be accomplished label-free with currently available technology. Super-duper Raman Scattering?
+
+Another problem with the neuroimaging route is that just from a purely career perspective, neuroscience is simply not that profitable (yet). Compared with computer architecture, which is fully self-sustaining, almost all neuroscience research has to go through the NSF or NIH. Any supposed "neurotech" companies like Lumosity have been proven to be [nonsense](http://news.sciencemag.org/brain-behavior/2014/10/neuroscientists-speak-out-against-brain-game-hype). While biomedical imaging is a niche field, attempting to create a startup in the space is simply going to be much harder than creating, say, an Android app.
+
+I can only say for certain that the future is going to be very complicated.
