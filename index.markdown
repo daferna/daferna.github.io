@@ -12,7 +12,7 @@ categories:
     <a href="https://facebook.com/dfernandes">Facebook</a>
 </p>
 <p>Daniel is majoring in Computer Engineering and minoring in Bioengineering at the University of Illinois at Urbana-Champaign. He is interested in Biomedical Imaging (Optics, MRI, CT, etc) with an emphasis on neuroimaging. He is also interested in topics at the intersection of neuroscience and computation, such as neural networks, pattern recognition, deep learning, and artificial intelligence.</p>
-<p>He is the President of the Neuroengineering Student Association (NESA)</p>
+<p>He is the President of the <a href="https://publish.illinois.edu/neuroengineering/">Neuroengineering Student Association (NESA)</a></p>
 <p>He is the President of the <a href="http://hkn.illinois.edu">IEEE-Eta Kappa Nu Alpha Chapter at UIUC</a> and works in Prof. Gabriel Popescu's <a href="http://light.ece.illinois.edu">Quantiative Light Imaging Lab</a></p>
 <p>email: daniel at this domain</p>
 <h4 style="display:inline">डेनियल फर्नांडीस</h4>
