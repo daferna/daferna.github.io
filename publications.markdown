@@ -1,6 +1,7 @@
 ---
 layout: page
-categories:
+title: Publications
+permalink: /publications/
 ---
 
 <ol>
