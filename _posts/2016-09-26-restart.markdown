@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Restarting the blog"
-date: 2016-09-26 17:51:00 -0700
+date: 2016-09-26 17:51:00-0700
 categories:
 ---
 
