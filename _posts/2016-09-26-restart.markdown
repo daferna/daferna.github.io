@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Restarting the blog"
-date: 2016-09-26 17:51:00-0700
+date: 2016-09-26 17:51:00 -0700
 categories:
 ---
 
@@ -14,7 +14,7 @@ if it's short.
 Though I do intend to try and stick to technical topics.
 I've tried habit trackers like Habitica in the past, but the web interfaces
 are clunky and I've definitely fallen prey to the [overjustification effect](https://en.wikipedia.org/wiki/Overjustification_effect)
-which I learned about from the (College Info Geek podcast)[https://en.wikipedia.org/wiki/Overjustification_effect]
+which I learned about from the [College Info Geek podcast](http://collegeinfogeek.com/habits-routines-motivation-strategies/)
 
 My other habits to track are generally going to the gym, which I am doing using
 the Stronglifts app (which, for the paid version, conveniently integrates with Google Fit)
@@ -22,4 +22,5 @@ I also am tracking my sleep with Sleep As Android and just purchased their Sleep
 
 I have finished reading Sam Harris's *Waking Up*, so I will try to meditate more.
 Luckily, he has some guided meditation audio files to get started, and apparently a mobile app will be coming out.
+
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/112643452&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
