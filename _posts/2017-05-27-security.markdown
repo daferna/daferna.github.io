@@ -1,0 +1,156 @@
+---
+layout: post
+title:  "Security Tips"
+date: 2017-05-27
+categories:
+---
+
+On [Sam Harris's most recent podcast](https://www.samharris.org/podcast/item/persuasion-and-control), [Zeynep Tufekci](https://twitter.com/zeynep) gave several reconmendations for what listeners should do for good computer security.
+
+<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5392967/height/90/width/800/theme/custom/autonext/no/thumbnail/yes/autoplay/no/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/3b94d9/" height="90" width="800" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+Some have asked me in the past about what steps I take to secure my accounts and data, so I thought I'd write it up for future reference. Roughly speaking, I divide infosec into the (completely arbitrary) categories of (1) online accounts, (2) traditional laptops and desktops, (3) mobile phones, (4) credit/debit/NFC/RFID cards, (5) social engineering.
+
+1. [Online accounts](#oa)
+	0. [Overview](#oa-overview)
+	1. [Two factor authentication](#oa-2fa)
+	2. [Password Managers](#oa-pm)
+	3. [Password Generators](#oa-pg)
+	4. [Password Resets](#oa-pr)
+	5. [OAuth](#oa-oa)
+	6. [Check your browser bar](#oa-browser)
+	7. [Looking to the future](#oa-future)
+2. [Traditional laptops and desktops](#tld)
+	0. [Overview](#tld-overview)
+	1. [Keep it patched](#tld-kip)
+	2. [Encrypt](#tld-encrypt)
+	3. [Turn off](#tld-to)
+	4. [Avoid install](#tld-oi)
+3. [Mobile Phones](#mob)
+	0. [Fingerprints are fine](#mob-fp)
+	1. [Avoid third party apps](#mob-tpa)
+	2. [CopperheadOS](#mob-cp)
+	3. [Signal](#mob-signal)
+	4. [Carriers](#mob-carriers)
+4. [Credit/Debit/NFC/RFID cards](#card)
+	0. [RFID wallets are a scam](#card-rfid)
+	1. [Magnetic stripe](#card-stripe)
+5. [Social Engineering](#se)
+	0. [Pay attention](#se-pa)
+
+<h2 id="oa">Online accounts</h2>
+<h3 id="oa-overview">Overview</h3>
+The basic idea is that you, the end user, needs to ensure that your credentials don't fall into the wrong hands. Websites will still get hacked, even if you do your part correctly. So make sure any critical data you put on someone else's server is encrypted.
+<h3 id="oa-2fa">Two factor authentication</h3>
+Two factor auth is using something you know (a password) and something you have
+(like a cellphone, security key, smart card, RFID card, etc) to login to a website/server.
+The worst version of this is using SMS to send you one-time codes:
+[anyone can call up your cell phone carrier][wired-sms], impersonate you, and port your
+number to another carrier.
+Generally, carriers are very lax about security and they will accept easily
+obtainable information about you, like your birthday or SSN to verify.
+SMS has historically been unencrypted, so your carrier can also read your one-time codes.
+
+Another way is to have a one-time code generator like Google Authenticator/Auth/Duo.
+[The problem with these][trezor] is that they rely on your device and the server having a "shared secret".
+If this secret gets out, due to your phone being hacked, or the secret being stolen in transport
+to your device, then this method will fail. Luckily, both of these scenarios are fairly
+unlikely and technically difficult compared to your number being stolen through
+social engineering.
+
+The best way is to use a security key like a [Yubikey](https://www.yubico.com/), which actively
+communicates with the server to authenticate you, based on the private keys locked on the device.
+
+In general, all these two-factor methods can be broken by stealing the physical device or hacking into
+the device to steal the private keys (easier with a phone, harder with a Yubikey),
+but hopefully they don't have your password as well (hence the strength of two-factor auth).
+
+Here is a list of services that use two-factor auth, hopefully you will find your bank on here already:
+https://twofactorauth.org/
+
+<h3 id="oa-pm">Password Managers</h3>
+
+I use [KeePass 2.0](http://keepass.info/), but you can also use the older variant, KeePassX, which has
+more compatability with some apps and linux clients. I sync the .kdbx file to Dropbox, where it can be
+accessed by [Keepass2Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android&hl=en)
+on my phone for on the go access. The file, of course, is encrypted, so despite the fact that Dropbox has been hackedmultiple times, it should be hard to crack through a brute-force password attack.
+You can also use Google Chrome's or Firefox's built in password manager, as both
+apps have been built by security-minded people. I stick with Keepass because I can also save files in there,
+like scans of my passport and drivers license, in case I need to access them abroad.
+There are also third party apps like Lastpass (browser extension) and 1password (for iOS/Mac), but both are overkill and generally unnecessary.
+
+You also don't have to use an app if you don't want to. Use a notebook and write things down. The only thing to avoid is sticky notes of passwords on your computer monitor, for anybody who sits down at your desk to immediately see.
+
+<h3 id="oa-pg">Password Generators</h3>
+Keepass and [Chrome][chrome-pw] both have secure password generators. Use them.
+Never reuse passwords, as when credentials are leaked, those credentials will be
+tried to login on other websites. Check if you've already had your credentials
+leaked over here: https://haveibeenpwned.com/
+
+<h3 id="oa-pr">Password Resets</h3>
+[Password resets are terrible](http://www.telegraph.co.uk/technology/internet-security/11067563/Jennifer-Lawrence-hack-iCloud-security-explained.html). They generally consist of security questions that can easily
+be guessed. It's best to generate random passwords and use those as answers. Save the answers in your password manager.
+What's your mother's maiden name? >"9$B!E~z%$5w+Jr6B%W should be the answer.
+Most password resets also involve sending you an e-mail link to click on. This is fine, just make sure to double-secure your e-mail.
+
+<h3 id="oa-oa">OAuth</h3>
+OAuth is a way for third party services to access another online account of yours. For example, an appointment
+calendar app may want to connect to GMail and pull in your messages. When a third party service asks
+for permissions on your Google or Facebook account *read and pay attention* [for who made the app][ars-oauth] and what permissions the app is requesting.
+
+<h3 id="oa-browser">Check your browser bar</h3>
+Make sure you are typing your FB credentials into facebook.com not faceb00k.com. Make sure the URL starts with HTTPS.You don't need a VPN at a coffee shop unless you are trying to entirely hide the fact that you are accessing a facebook server, in which case, you should be using something like [TOR](https://www.torproject.org/), since the ISP can
+see all your traffic anyway.
+
+<h3 id="oa-future">Looking to the future</h3>
+The future will involve more biometric authentication for websites and payments
+through services like Windows Hello and Apple TouchID.
+Adopt this type of technology, if your device has the capability.
+
+<h2 id="tld">Traditional laptops and desktops</h2>
+<h3 id="tld-overview">Overview</h3>
+Traditional computing involves software and physical (hardware) security. Do both.
+<h3 id="tld-kip">Keep it patched</h3>
+If your OS is prompting you to install an update: do it ASAP. 95% of the time it is a security patch.
+<h3 id="tld-encrypt">Encrypt</h3>
+On Windows use Bitlocker. On OS X, enable whole disk encryption. Ubuntu's latest installer now supports whole disk encryption as well.
+<h3 id="tld-to">Turn off</h3>
+Whole disk encryption only protects you when the computer is fully off. (NOT in suspend mode)
+<h3 id="tld-oi">Avoid install</h3>
+Avoid downloading executable code from untrusted sources. By default, say NO to any prompts you are unsure about.
+
+<h2 id="mob">Mobile Phones</h2>
+<h3 id="mob-fp">Fingerprints are fine</h3>
+Fingerprints can be duplicated, but they are convienient, so don't worry about it.
+If you are the kind of person worried about this, then you don't need to read this guide.
+<h3 id="mob-tpa">Avoid third party apps</h3>
+Don't install third party apps (.apk files on Android). Stick to the Google Play store.
+<h3 id="mob-cp">CopperheadOS</h3>
+There are locked down versions of Android comparable to iOS security, like CopperheadOS, but for most people
+this is overkill.
+<h3 id="mob-signal">Signal</h3>
+Nobody uses PGP because it's [overkill and cumbersome](arstechnica.com/security/2016/12/op-ed-im-giving-up-on-pgp/). [Use Signal](https://whispersystems.org/). If your friends insist, you can cave and use WhatsApp as it is using the Signal protocol.
+<h3 id="mob-carriers">Carriers</h3>
+As I said, carriers get hacked all the time. Don't rely on them to keep you safe. Assume they are
+performing deep packet inspection on all your traffic (they probably are).
+Google Project Fi /might/ be better in this regard, I hope.
+
+<h2 id="card">Credit/Debit/NFC/RFID cards</h2>
+<h3 id="card-rfid">RFID wallets are a scam</h3>
+RFID shielded wallets are a scam. The physics of EM dictates that your card will need to be 1-2 inches away from a reader before anyone can interact with the card. And even if they can, they need authorization from the bank to access the card: https://blog.kaspersky.com/contactless-payments-security/9422/
+
+Worried about privacy and being tracked? Your face can easily be tracked with security cameras, your RFID cards are not a concern.
+
+Consider being able to pay for stuff without removing the card from your wallet a net /benefit/, not hinderance.
+
+<h3 id="card-stripe">Magnetic stripe</h3>
+The magnetic stripe is the real problem. It is trivial to clone, and I have been 'skimmed' twice already. Don't let your card out of your sight. Pay with cash at a restaurant. Your money isn't at risk, since generally you are protected from unauthorized charges, it is just a hassle to get your card replaced.
+
+<h2 id="se">Social Engineering</h2>
+<h3 id="se-pa">Pay attention</h3>
+The problem is often between the keyboard and the chair. Pay attention to security alerts, like HTTPS warnings. Be skeptical when someone asks for your personal information over the phone. By default, click 'NO'.
+
+[chrome-pw]: http://www.thewindowsclub.com/chrome-password-generator
+[wired-sms]: https://www.wired.com/2016/06/hey-stop-using-texts-two-factor-authentication/
+[trezor]: https://blog.trezor.io/why-you-should-never-use-google-authenticator-again-e166d09d4324
+[ars-oauth]: https://arstechnica.com/security/2017/05/dont-trust-oauth-why-the-google-docs-worm-was-so-convincing/
