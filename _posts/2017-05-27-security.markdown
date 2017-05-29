@@ -66,7 +66,7 @@ the device to steal the private keys (easier with a phone, harder with a Yubikey
 but hopefully they don't have your password as well (hence the strength of two-factor auth).
 
 Here is a list of services that use two-factor auth, hopefully you will find your bank on here already:
-https://twofactorauth.org/
+[https://twofactorauth.org/](https://twofactorauth.org/)
 
 <h3 id="oa-pm">Password Managers</h3>
 
@@ -85,7 +85,7 @@ You also don't have to use an app if you don't want to. Use a notebook and write
 Keepass and [Chrome][chrome-pw] both have secure password generators. Use them.
 Never reuse passwords, as when credentials are leaked, those credentials will be
 tried to login on other websites. Check if you've already had your credentials
-leaked over here: https://haveibeenpwned.com/
+leaked over here: [https://haveibeenpwned.com/](https://haveibeenpwned.com/)
 
 <h3 id="oa-pr">Password Resets</h3>
 [Password resets are terrible](http://www.telegraph.co.uk/technology/internet-security/11067563/Jennifer-Lawrence-hack-iCloud-security-explained.html). They generally consist of security questions that can easily
@@ -96,7 +96,7 @@ Most password resets also involve sending you an e-mail link to click on. This i
 <h3 id="oa-oa">OAuth</h3>
 OAuth is a way for third party services to access another online account of yours. For example, an appointment
 calendar app may want to connect to GMail and pull in your messages. When a third party service asks
-for permissions on your Google or Facebook account *read and pay attention* [for who made the app][ars-oauth] and what permissions the app is requesting.
+for permissions on your Google or Facebook account **read and pay attention** [for who made the app][ars-oauth] and what permissions the app is requesting.
 
 <h3 id="oa-browser">Check your browser bar</h3>
 Make sure you are typing your FB credentials into facebook.com not faceb00k.com. Make sure the URL starts with HTTPS.You don't need a VPN at a coffee shop unless you are trying to entirely hide the fact that you are accessing a facebook server, in which case, you should be using something like [TOR](https://www.torproject.org/), since the ISP can
@@ -133,15 +133,15 @@ Nobody uses PGP because it's [overkill and cumbersome](arstechnica.com/security/
 <h3 id="mob-carriers">Carriers</h3>
 As I said, carriers get hacked all the time. Don't rely on them to keep you safe. Assume they are
 performing deep packet inspection on all your traffic (they probably are).
-Google Project Fi /might/ be better in this regard, I hope.
+Google Project Fi *might* be better in this regard, I hope.
 
 <h2 id="card">Credit/Debit/NFC/RFID cards</h2>
 <h3 id="card-rfid">RFID wallets are a scam</h3>
-RFID shielded wallets are a scam. The physics of EM dictates that your card will need to be 1-2 inches away from a reader before anyone can interact with the card. And even if they can, they need authorization from the bank to access the card: https://blog.kaspersky.com/contactless-payments-security/9422/
+RFID shielded wallets are a scam. The physics of EM dictates that your card will need to be 1-2 inches away from a reader before anyone can interact with the card. And even if they can, they need authorization from the bank to access the card: [https://blog.kaspersky.com/contactless-payments-security/9422/](https://blog.kaspersky.com/contactless-payments-security/9422/)
 
 Worried about privacy and being tracked? Your face can easily be tracked with security cameras, your RFID cards are not a concern.
 
-Consider being able to pay for stuff without removing the card from your wallet a net /benefit/, not hinderance.
+Conside. [being able to pay for stuff without removing the card from your wallet a net *benefit*, not hinderance.
 
 <h3 id="card-stripe">Magnetic stripe</h3>
 The magnetic stripe is the real problem. It is trivial to clone, and I have been 'skimmed' twice already. Don't let your card out of your sight. Pay with cash at a restaurant. Your money isn't at risk, since generally you are protected from unauthorized charges, it is just a hassle to get your card replaced.
