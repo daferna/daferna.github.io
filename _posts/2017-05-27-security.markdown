@@ -141,7 +141,7 @@ RFID shielded wallets are a scam. The physics of EM dictates that your card will
 
 Worried about privacy and being tracked? Your face can easily be tracked with security cameras, your RFID cards are not a concern.
 
-Conside. [being able to pay for stuff without removing the card from your wallet a net *benefit*, not hinderance.
+Consider being able to pay for stuff without removing the card from your wallet a net *benefit*, not hinderance.
 
 <h3 id="card-stripe">Magnetic stripe</h3>
 The magnetic stripe is the real problem. It is trivial to clone, and I have been 'skimmed' twice already. Don't let your card out of your sight. Pay with cash at a restaurant. Your money isn't at risk, since generally you are protected from unauthorized charges, it is just a hassle to get your card replaced.
