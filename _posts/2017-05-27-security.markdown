@@ -51,7 +51,7 @@ Generally, carriers are very lax about security and they will accept easily
 obtainable information about you, like your birthday or SSN to verify.
 SMS has historically been unencrypted, so your carrier can also read your one-time codes.
 
-Another way is to have a one-time code generator like Google Authenticator/Auth/Duo.
+Another way is to have a one-time code generator like Google Authenticator/Authy/Duo.
 [The problem with these][trezor] is that they rely on your device and the server having a "shared secret".
 If this secret gets out, due to your phone being hacked, or the secret being stolen in transport
 to your device, then this method will fail. Luckily, both of these scenarios are fairly
@@ -73,7 +73,7 @@ Here is a list of services that use two-factor auth, hopefully you will find you
 I use [KeePass 2.0](http://keepass.info/), but you can also use the older variant, KeePassX, which has
 more compatability with some apps and linux clients. I sync the .kdbx file to Dropbox, where it can be
 accessed by [Keepass2Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android&hl=en)
-on my phone for on the go access. The file, of course, is encrypted, so despite the fact that Dropbox has been hackedmultiple times, it should be hard to crack through a brute-force password attack.
+on my phone for on the go access. The file, of course, is encrypted, so despite the fact that Dropbox has been hacked [multiple times](http://www.zdnet.com/article/dropbox-gets-hacked-again/), it should be hard to crack through a brute-force password attack.
 You can also use Google Chrome's or Firefox's built in password manager, as both
 apps have been built by security-minded people. I stick with Keepass because I can also save files in there,
 like scans of my passport and drivers license, in case I need to access them abroad.
