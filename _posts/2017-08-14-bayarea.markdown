@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "The Bay Area: a disambiguation"
+date: 2018-08-14
+categories:
+---
+
+There seems to be much confusion regarding the San Francisco bay area. Namely: is it cold or is it warm? Is it expensive or is it affordable? Is it dirty or is it clean? Is it crowded or is it spacious? Is there public transportation or is it lacking? Is there a wealth disparity problem or is there upward social mobility? Is it all tech all the time, or there more balance among industries?
+
+The answer to all these questions, of course is:
+
+<h1> Yes </h1>
+
+The main problem I see happening is a conflation of *the city of San Francisco* and the *rest of the bay area*. The bay is one of the most diverse landscapes and cityscapes in the world and "the city", and SF is arguable the least important part of the puzzle, even though it is the most popular and well known. This leads to mistakes like thinking the bay area is cold, expensive, dirty, cramped, overladen with tech workers, has a homeless problem. Even less consequetial errors like flying into SFO when you are travelling to a conference at UC Berkeley, when OAK is closer, cheaper, and arguably a better airport. The same error occurs when visiting San Jose, where SJC airport is the best kept open secret in the valley.
+
+A bigger glaring error is conflating the Silicon Valley tech industry with San Francisco. There are few notable tech companies in SF proper, the big ones are now Salesforce and Twitter, but beyond that? Yelp, maybe? SF should really be known for Charles Schwab, not for software. Apple, Google, Netflix, IBM, & Tesla all call the south bay home.
+
+From the warmth of San Jose, the hills of Palo Alto, the bay lands of Fremont, the industriousness of Oakland, SF is hardly the crown jewel here. It is not the Manhattan to NYC, and San Jose is not the Naperville of Chicago.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jqWt49o7R-k" frameborder="0" allowfullscreen></iframe>
