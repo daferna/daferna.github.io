@@ -32,6 +32,10 @@ My coursework mostly surrounds analog circuits in my MSEE and biomedical optics,
 
   Parallel programming with emphasis on developing applications for processors with many computation cores. Computational thinking, forms of parallelism, programming models, mapping computations to parallel hardware, efficient data structures, paradigms for efficient parallel algorithms, and application case studies. 
 
+* ECE 385: Digital System Engineering
+
+  Design, build, and test digital systems using transistor-transistor logic (TTL), SystemVerilog, and field-programmable gate arrays (FPGAs). Topics include combinational and sequential logic, storage elements, input/output and display, timing analysis, design tradeoffs, synchronous and asynchronous design methods, datapath and controller, microprocessor design, software/hardware co-design, and system-on-a-chip. 
+
 # Optics & Imaging
 
 * ECE 460: Optical Imaging
