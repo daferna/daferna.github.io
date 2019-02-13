@@ -38,11 +38,11 @@ My coursework mostly surrounds analog circuits in my MSEE and biomedical optics,
 
 # Optics & Imaging
 
-* ECE 460: Optical Imaging
+* [ECE 460: Optical Imaging](http://light.ece.illinois.edu/ECE460/)
   
   Scalar fields, geometrical optics, wave optics, Gaussian beams, Fourier optics, spatial and temporal coherence, microscopy, interference chromatic and geometric aberrations, Jones matrices, waveplates, electromagnetic fields, and electro-optic and acousto-optic effects. Laboratory covers numerical signal processing, spectroscopy, ray optics, diffraction, Fourier optics, microscopy, spatial coherence, temporal coherence, polarimetry, fiber optics, electro-optic modulation and acousto-optic modulation.
 
-* ECE 564: Modern Light Microscopy
+* [ECE 564: Modern Light Microscopy](http://light.ece.illinois.edu/ECE564/)
 
   Current research topics in modern light microscopy: optics principles (statistical optics, Gaussian optics, elastic light scattering, dynamic light scattering); traditional microscopy (bright field, dark field, DIC, phase contract, confocal, epi-fluorescence, confocal fluorescence); current research topics (multiphoton, CARS, STED, FRET, FIONA, STORM, PALM, quantitative phase).  
 
@@ -110,3 +110,13 @@ This course is a must for students who wish to acquire a deep understanding of t
 * MCB 314: Introduction to Neurobiology
 
   Introduction to functional and organizational principles of the mammalian nervous system. Topics include the function of nerve cells, neural signaling, sensory and motor systems, learning and memory, attention, motivation, emotions, language, neural development and neurological disorders. A general introduction appropriate for all majors. 
+
+# Machine Learning
+
+* [STATS 216: Introduction to Statistical Learning](https://statweb.stanford.edu/~tibs/stats216.html)
+
+  Overview of supervised learning, with a focus on regression and classification methods. Syllabus includes: linear and polynomial regression, logistic regression and linear discriminant analysis; cross-validation and the bootstrap, model selection and regularization methods (ridge and lasso); nonlinear models, splines and generalized additive models; tree-based methods, random forests and boosting; support-vector machines; Some unsupervised learning: principal components and clustering (k-means and hierarchical). Computing is done in R, through tutorial sessions and homework assignments. This math-light course is offered via video segments (MOOC style), and in-class problem solving sessions. Prerequisites: first courses in statistics, linear algebra, and computing.
+  
+* [CS 273B: Deep Learning in Genomics and Biomedicine](https://canvas.stanford.edu/courses/51037)
+
+  Recent breakthroughs in high-throughput genomic and biomedical data are transforming biological sciences into "big data" disciplines. In parallel, progress in deep neural networks are revolutionizing fields such as image recognition, natural language processing and, more broadly, AI. This course explores the exciting intersection between these two advances. The course will start with introduction to deep learning and overview the relevant background in genomics and high-throughput biotechnology, focusing on the available data and their relevance. It will then cover the ongoing developments in deep learning (supervised, unsupervised and generative models) with the focus on the applications of these methods to biomedical data, which are beginning to produced dramatic results.  In addition to predictive modeling, the course emphasizes how to visualize and extract interpretable, biological insights from such models. Recent papers from the literature will be presented and discussed. Students will work in groups on a final class project using real world datasets.
