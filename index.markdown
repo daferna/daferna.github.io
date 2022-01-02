@@ -5,7 +5,7 @@ categories:
 
 <img style="display:block" src="img/daniel.jpg" alt="Photo of Daniel Fernandes" height="300" />
 <p>Latest Post: <a href="{{site.posts[0].url}}">{{site.posts[0].title}}</a> made on {{site.posts[0].date | date_to_long_string}} </p>
-<p>Some of my more recent writings are at mirror.xyz here: https://mirror.xyz/dfern.eth</p>
+<p>Some of my more recent writings are at mirror.xyz here: <a href="https://mirror.xyz/dfern.eth">https://mirror.xyz/dfern.eth</a></p>
 <ul>
     <li><a href="https://github.com/daferna">Github</a></li>
     <li><a href="http://www.linkedin.com/in/daferna">LinkedIn</a></li>
