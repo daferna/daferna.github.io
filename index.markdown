@@ -7,11 +7,11 @@ categories:
 <p>Latest Post: <a href="{{site.posts[0].url}}">{{site.posts[0].title}}</a> made on {{site.posts[0].date | date_to_long_string}} </p>
 <p>Some of my more recent writings are at mirror.xyz here: <a href="https://mirror.xyz/dfern.eth">https://mirror.xyz/dfern.eth</a></p>
 <ul>
-    <li><a href="https://github.com/daferna">Github</a></li>
-    <li><a href="http://www.linkedin.com/in/daferna">LinkedIn</a></li>
-    <li><a href="https://twitter.com/daferna2">Twitter</a></li>
-    <li><a href="https://facebook.com/dfernandes">Facebook</a></li>
-    <li><a href="http://orcid.org/0000-0002-5079-2777">ORCID</a></li>
+    <li><a rel="me" href="https://github.com/daferna">Github</a></li>
+    <li><a rel="me" href="http://www.linkedin.com/in/daferna">LinkedIn</a></li>
+    <li><a rel="me" href="https://cryptodon.lol/@dfern">Mastodon</a></li>
+    <li><a rel="me" href="https://facebook.com/dfernandes">Facebook</a></li>
+    <li><a rel="me" href="http://orcid.org/0000-0002-5079-2777">ORCID</a></li>
 </ul>
 <p>I am interested in the areas of computer architecture, neuroscience, DNA sequencing/computing, biomedical imaging/sensors, and photonics/optics. Many of my ideal research areas or career paths involve the intersection of these topics, such as photonic integration, neuromorphic chips, brain computer interfaces, and neuroimaging. I am also interested in topics at the intersection of neuroscience and computation, such as neural networks, pattern recognition, deep learning, and artificial intelligence. To this end, I graduated in Computer Engineering at the University of Illinois specializing in biomedical optics.</p>
 <p>At Illinois, I served as President of the <a href="http://hkn.illinois.edu">IEEE-Eta Kappa Nu Alpha Chapter at UIUC</a>, worked in Prof. Gabriel Popescu's <a href="http://light.ece.illinois.edu">Quantiative Light Imaging Lab</a> and with a technology transfer startup for the lab, <a href="http://phioptics.com/">Phi Optics</a>.</p>
