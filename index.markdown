@@ -6,10 +6,13 @@ categories:
 <img style="display:block" src="img/daniel.jpg" alt="Photo of Daniel Fernandes" height="300" />
 <p>Latest Post: <a href="{{site.posts[0].url}}">{{site.posts[0].title}}</a> made on {{site.posts[0].date | date_to_long_string}} </p>
 <p>Some of my more recent writings are at mirror.xyz here: <a href="https://mirror.xyz/dfern.eth">https://mirror.xyz/dfern.eth</a></p>
+<p>Links below are also replicated on my <a href="https://dfern.eth.limo" rel="me">dfern.eth Nimi</a></p>
 <ul>
     <li><a rel="me" href="https://github.com/daferna">Github</a></li>
     <li><a rel="me" href="http://www.linkedin.com/in/daferna">LinkedIn</a></li>
     <li><a rel="me" href="https://cryptodon.lol/@dfern">Mastodon</a></li>
+    <li><a rel="me" href="https://fcast.me/dfern">Farcaster</a></li>
+    <li><a rel="me" href="https://lenster.xyz/u/dfern">Lenster</a></li>
     <li><a rel="me" href="https://facebook.com/dfernandes">Facebook</a></li>
     <li><a rel="me" href="http://orcid.org/0000-0002-5079-2777">ORCID</a></li>
 </ul>
