@@ -11,7 +11,7 @@ categories:
     <li><a rel="me" href="https://github.com/daferna">Github</a></li>
     <li><a rel="me" href="http://www.linkedin.com/in/daferna">LinkedIn</a></li>
     <li><a rel="me" href="https://cryptodon.lol/@dfern">Mastodon</a></li>
-    <li><a rel="me" href="https://fcast.me/dfern">Farcaster</a></li>
+    <li><a rel="me" href="https://farcaster.xyz/dfern">Farcaster</a></li>
     <li><a rel="me" href="https://lenster.xyz/u/dfern">Lenster</a></li>
     <li><a rel="me" href="https://facebook.com/dfernandes">Facebook</a></li>
     <li><a rel="me" href="http://orcid.org/0000-0002-5079-2777">ORCID</a></li>
